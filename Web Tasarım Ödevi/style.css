@@ -1,46 +1,41 @@
-/* Genel Ayarlar ve Font */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Koyu Gri Arka Plan (Dark Mode) */
-    color: #e0e0e0; /* Açık Gri Metin Rengi */
+    background-color: #121212; 
+    color: #e0e0e0; 
 }
 
-/* Kapsayıcı (Content) Ortalaması */
 main {
     max-width: 900px;
     margin: 30px auto;
-    padding: 0; /* Bölmelerin kontrolü için burada sıfırla */
+    padding: 0; 
 }
 
-/* --- Bölmeli Dikdörtgen Tasarım --- */
 section {
-    background-color: #1e1e1e; /* Bölme Arka Planı (Biraz daha koyu) */
+    background-color: #1e1e1e; 
     padding: 30px;
-    margin-bottom: 25px; /* Bölmeler arasına boşluk */
-    border-radius: 12px; /* Yumuşak Köşeler */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Belirgin Gölge */
+    margin-bottom: 25px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
 }
 
-/* Başlıklar */
 h1, h2 {
-    color: #4d95b6; /* Parlak Mint Yeşili (Vurgu Rengi) */
-    border-bottom: 2px solid #4db6ac40; /* Altına ince, yarı şeffaf çizgi */
+    color: #4d95b6;
+    border-bottom: 2px solid #4db6ac40; 
     padding-bottom: 10px;
-    margin-top: 0; /* Section'ın içindeki ilk başlık olduğu için */
+    margin-top: 0; 
 }
 
 h1 {
     font-size: 2.5em;
     text-align: left;
-    color: #4d95b6; /* Ana başlık için farklı bir ton */
+    color: #4d95b6; 
 }
 
-/* --- NAVIGATION BAR (Gezinme Çubuğu) --- */
 header {
-    background-color: #00204d; /* Koyu Teal (Navigasyon için belirgin renk) */
+    background-color: #00204d; 
     color: white;
     padding: 15px 0;
     position: sticky;
@@ -70,22 +65,22 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #4d95b6; /* Üzerine gelince vurgu rengi */
+    color: #4d95b6; 
 }
 
-/* --- Resim Stili --- */
+
 img {
     display: block;
     margin: 20px auto;
     border-radius: 10px;
-    border: 3px solid #4d95b6; /* Vurgu renginde çerçeve */
+    border: 3px solid #4d95b6; 
     max-width: 100%;
     height: auto;
 }
 
-/* --- Beceriler Listesi Stili --- */
+
 #beceriler ul {
-    list-style-type: '👉'; /* Özel Madde İmi */
+    list-style-type: '👉'; 
     padding-left: 20px;
 }
 
@@ -93,7 +88,7 @@ img {
     margin-bottom: 10px;
 }
 
-/* --- Gömülü Video Stili --- */
+
 #video {
     text-align: center;
 }
@@ -103,13 +98,12 @@ img {
     height: auto;
     margin-top: 15px;
     border: 5px solid #4d95b6;
-    border-radius: 12px; /* Köşeler yumuşak */
+    border-radius: 12px; 
 }
 
-/* --- FOOTER (Alt Bilgi) --- */
 footer {
-    background-color: #000000; /* Tamamen Siyah */
-    color: #9e9e9e; /* Daha soft bir gri */
+    background-color: #000000; 
+    color: #9e9e9e; 
     text-align: center;
     padding: 20px 0;
     margin-top: 30px;
